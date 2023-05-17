@@ -1,0 +1,20 @@
+import { useState } from "react"
+
+const cakeForm = (cake, setCake) => {
+
+    const[cakeName, setCakeName] = useState();
+    const[cakeRating, setCakeRating] = useState();
+    const[cakePrice, setCakePrice] = useState();
+    const[cakeIngredients, setCakeIngredients] = useState();
+
+
+
+return (
+<>
+<h2>Add a new cake!</h2>
+</>
+
+)
+
+}
+export default CakeForm;
